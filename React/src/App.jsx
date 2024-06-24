@@ -7,6 +7,8 @@
 // import '../src/components/signup/Signup'
 import Signup from './components/Signup'
 
+import Counter from "./components/Counter"
+
 function App() {
   // const [count, setCount] = useState(0)
   // const fruits = ['mango', 'lemon', 'orange', 'apple']
@@ -34,6 +36,8 @@ function App() {
       <br/>
       <Button label = 'Log In' onClick= {handleLogin} title='Log In Here'/> */}
       <Signup/>
+
+      <Counter/>
 
     </>
   )
